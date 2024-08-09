@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button,
+a {
+  @apply outline-none transition focus:ring focus:ring-dark-elements dark:focus:ring-dark-text-light-elements;
+}
